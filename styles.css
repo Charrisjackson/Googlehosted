@@ -1,0 +1,286 @@
+html {
+    height:100%;
+    width:100%;
+    background-color: #3C4043;
+  
+  
+  }
+  /* 
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  body {
+    background:#3C4043 ;
+    color: white;
+    padding: 25px;
+    align-items: center;
+    font-family: Roboto;
+    cursor: pointer;  
+    height: 50%;
+    padding:15px;
+    margin:0;
+  }
+  
+  
+  /* NAVBAR */
+  
+  
+  
+  .navbar{
+    width:100%;
+   flex-direction: row;
+    display:flex;
+    justify-content:space-between;
+    cursor: pointer;
+    font-size:14px;
+    float:top;
+    /* border: 1px solid black; */
+    padding:20px;
+  
+  }
+  .left-links{
+    display:flex;
+    justify-content:space-between; 
+    gap: 15px;
+  } 
+  
+    .right-links{
+    display:flex;
+    justify-content:space-between; 
+    gap: 15px;
+  }
+  
+  .navbar:hover{
+    text-decoration: underline;
+  }
+  
+  
+  /* GOOGLE LOGO */
+  
+  span{
+    font-family: Robot;
+    font-size:100px;
+  } 
+  
+  /* LINKS/ANCHOR TAGS */
+  
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+  }
+  a :hover{
+    text-decoration: underline;
+  
+  }
+  /*yt help code*/
+  section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5vh;
+  }
+  
+  
+  li:hover{
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* Search bar div */
+  .search{
+    align-items: center;
+    padding-top: 0px;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    height:100%;
+    width:47%;
+    margin-top:5vh;
+    background-color:lightgrey;
+    border-radius: 500px;
+    color:black;
+    margin: 0 25%;
+    justify-content: space-between;
+    }
+    /*textbox/searchbar only  */
+  
+  #search-bar,textarea{
+  
+    height:40px;
+      width:500px;
+  }
+  
+  /* Text box inside search div */
+  .search > input {
+  
+  outline: none;
+  border: 2px;
+  
+    background-color:lightgrey;
+  
+    border-radius: 600px;
+  }
+  /*google search/feeling lucky buttons  */
+  
+  .button{
+    display: flex;
+    height:45px;
+    width:85px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin: 0 41%;
+    padding-right: 95px;
+  
+   /* border:1px solid pink; */
+  }
+  /*styling the buttons, cant style in div bc of overflow*/
+  button{
+     background-color:#e8eaed;
+     border-radius:5px;
+     border:none;
+     height:30p3x;
+     padding:0 20px;
+     margin:0 5px;
+     background-color:#303134;
+     color:white;
+  }
+  button:hover{
+    cursor:pointer;
+  }
+  
+  
+  ul{
+    text-decoration: none;
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    text-align: right;
+    gap:14px;
+  
+  
+  }
+  h1{
+    text-align:center;
+    font-size:100;
+    /*font that looks closet to google font*/
+    font-family:Roboto;
+    /* border:1px solid orange; */
+    width:100%;
+    margin: 2% 34% 5% 30%;
+  }
+  .footer{
+    background-color: #20214;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 1.5rem ;
+    right: 1.5rem ; 
+    padding-right: 15px; 
+    position: absolute;
+    bottom: 0;
+    gap:15px;  
+    padding-bottom: 0;
+    margin-bottom:0;
+    flex-direction: row;
+    width:97%;
+  }
+  
+  .rightfoot{
+    display:flex;
+    gap:15px;
+    justify-content: space-between;
+    min-width:20;
+    white-space: nowrap;
+  }
+  
+  .leftfoot{
+    display: flex;
+    justify-content: space-between; 
+  
+    gap:15px;
+    margin-left: 10px;
+    min-width: 20;
+    float:left;
+  
+  }
+  
+  
+  
+  
+  /*Roboto font css*/
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
